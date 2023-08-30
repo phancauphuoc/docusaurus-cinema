@@ -31,7 +31,7 @@ export default function Home() {
   console.log('siteConfig', siteConfig);
   return (
     <Layout
-      title={`Document Lotte Cinema`}
+      title={`Document For Me`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
