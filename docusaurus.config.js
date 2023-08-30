@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Produced by Lotte Data Communicationn`,
+        copyright: `Copyright © ${new Date().getFullYear()} Produced by Lotte Data Communication`,
       },
       prism: {
         theme: lightCodeTheme,
