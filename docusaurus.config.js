@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Welcome',
-  tagline: 'Lotte Cinema are cool',
+  tagline: 'My document',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Lotte Cinema',
+        title: 'My document',
         logo: {
-          alt: 'Lotte Cinema Logo',
-          src: 'img/logo1.svg',
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -101,15 +101,15 @@ const config = {
             items: [
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/lottecinema',
+                href: 'https://www.facebook.com',
               },
               {
                 label: 'Web',
-                href: 'https://www.lottecinemavn.com',
+                href: 'https://www.google.com.vn',
               },
               {
                 label: 'Instagram',
-                href: 'https://www.instagram.com/lottecinema_vietnam',
+                href: 'https://www.instagram.com',
               },
             ],
           },
@@ -117,8 +117,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'LDCC',
-                to: 'https://ldcc.vn/',
+                label: 'GOOGLE',
+                to: 'https://www.google.com.vn',
               },
             ],
           },
@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Produced by Lotte Data Communication`,
+        copyright: `Copyright © ${new Date().getFullYear()} Produced by Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
