@@ -16,11 +16,8 @@ const ImportFile = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const username = e.target.elements.username.value;
-        const password = e.target.elements.password.value;
 
-        console.log('Username:', username);
-        console.log('Password:', password);
+        console.log('acceptedFiles:', acceptedFiles);
     };
 
     return (

@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import './style.css'
 import Layout from '@theme/Layout'
+import { useHistory } from '@docusaurus/router';
 
 const index = () => {
 
     const [isAlertVisible, setAlertVisible] = useState(false);
+    const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -19,6 +21,8 @@ const index = () => {
             setTimeout(() => {
                 setAlertVisible(false);
             }, 1500);
+        } else {
+            history.push('/admin/importfile');
         }
     };
 
